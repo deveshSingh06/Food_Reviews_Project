@@ -1,15 +1,12 @@
-# Amazon Fine Food Reviews Analysis
-
-
-Data source is available [here](https://www.kaggle.com/snap/amazon-fine-food-reviews). 
-
-The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon.
-
+# Amazon Fine Food Reviews Dataset Information:
+The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon.<br>
 Number of reviews: **568,454**<br>
 Number of users: **256,059**<br>
 Number of products: **74,258**<br>
 Timespan: **Oct 1999 - Oct 2012**<br>
-Number of Attributes/Columns in data: **10**
+Number of Attributes/Columns in data: **10**<br>
+
+The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food-reviews). 
 
 ### Attribute Information:
 1. Id
