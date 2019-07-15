@@ -38,3 +38,21 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 2. To turn this problem into a machine learning problem, we remove the score column and use the reviews column and convert reviews to d-dimensional vectors.<br>
 3. We apply the concepts of linear algebra along with some machine learning algorithms on these vectors and find out the polarity of each review.<br>
 4. A rating of 4 or 5 could be considered a positive. A rating of 1 or 2 could be considered negative. A review with rating 3 is considered neutral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
+
+# Featurization techniques used to convert reviews to vectors:
+- Bag of Words(BoW)
+- TF(Term Frequency)
+- IDF(Inverse Document Frequency)
+- Word to Vector(Word2Vec)
+- Average Word to Vector(Avg Word2Vec)
+- TF-IDF Weighted Word2Vec<br>
+To learn about the featurization techniques discussed above, check out my repository named [Natural Language Processing](https://github.com/deveshSingh06/Natural-Language-Processing).
+
+# Technique used for dimensionality reduction: T-SNE
+- t-SNE stands for T-distributed Stochastic Neighbour Embedding.
+- It is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
+- t-SNE is neighbuorhood preserving embedding.
+- In t-SNE, the distances between a given point, in d-dimensions, and the points in its neighbourhood are preserved.
+- When a given point is embedded to a point in low-dimensions(say 2-d), the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions(d >>> 2).<br>
+To learn about more about t-SNE, check out my repository named [t-SNE on MNIST Dataset](https://github.com/deveshSingh06/t-SNE-on-MNIST-Dataset).
+
