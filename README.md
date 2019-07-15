@@ -5,14 +5,13 @@ Data source is available [here](https://www.kaggle.com/snap/amazon-fine-food-rev
 
 The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon.
 
-Number of reviews: 568,454<br>
-Number of users: 256,059<br>
-Number of products: 74,258<br>
-Timespan: Oct 1999 - Oct 2012<br>
-Number of Attributes/Columns in data: 10 
+Number of reviews: **568,454**<br>
+Number of users: **256,059**<br>
+Number of products: **74,258**<br>
+Timespan: **Oct 1999 - Oct 2012**<br>
+Number of Attributes/Columns in data: **10**
 
-Attribute Information:
-
+### Attribute Information:
 1. Id
 2. ProductId - unique identifier for the product
 3. UserId - unqiue identifier for the user
@@ -39,7 +38,7 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 3. We apply the concepts of linear algebra along with some machine learning algorithms on these vectors and find out the polarity of each review.<br>
 4. A rating of 4 or 5 could be considered a positive. A rating of 1 or 2 could be considered negative. A review with rating 3 is considered neutral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
 
-# Featurization techniques used to convert reviews to vectors:
+## Featurization techniques used to convert reviews to vectors:
 - Bag of Words(BoW)
 - TF(Term Frequency)
 - IDF(Inverse Document Frequency)
@@ -48,7 +47,7 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 - TF-IDF Weighted Word2Vec<br>
 To learn about the featurization techniques discussed above, check out my repository named [Natural Language Processing](https://github.com/deveshSingh06/Natural-Language-Processing).
 
-# Technique used for dimensionality reduction: T-SNE
+## Technique used for dimensionality reduction: T-SNE
 - t-SNE stands for T-distributed Stochastic Neighbour Embedding.
 - It is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
 - t-SNE is neighbuorhood preserving embedding.
