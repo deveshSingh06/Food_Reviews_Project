@@ -45,7 +45,7 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 - Word to Vector(Word2Vec)
 - Average Word to Vector(Avg Word2Vec)
 - TF-IDF Weighted Word2Vec<br>
-To learn about the featurization techniques discussed above, check out my repository named [Natural Language Processing](https://github.com/deveshSingh06/Natural-Language-Processing).
+> To learn about the featurization techniques discussed above, check out my repository named [Natural Language Processing](https://github.com/deveshSingh06/Natural-Language-Processing).
 
 ## Technique used for dimensionality reduction: T-SNE
 - t-SNE stands for T-distributed Stochastic Neighbour Embedding.
@@ -53,5 +53,5 @@ To learn about the featurization techniques discussed above, check out my reposi
 - t-SNE is neighbuorhood preserving embedding.
 - In t-SNE, the distances between a given point, in d-dimensions, and the points in its neighbourhood are preserved.
 - When a given point is embedded to a point in low-dimensions(say 2-d), the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions(d >>> 2).<br>
-To learn about more about t-SNE, check out my repository named [t-SNE on MNIST Dataset](https://github.com/deveshSingh06/t-SNE-on-MNIST-Dataset).
+> To learn about more about t-SNE, check out my repository named [t-SNE on MNIST Dataset](https://github.com/deveshSingh06/t-SNE-on-MNIST-Dataset).
 
