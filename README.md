@@ -21,7 +21,7 @@ The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food
 9. Summary - brief summary of the review
 10. Text - text of the review
 
-<img src="http://nycdatascience.com/blog/wp-content/uploads/2016/04/AmazonReview.png" width="600">
+<img src="https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2016/04/AmazonReview-300x189.png" width="600">
 
 
 ### Objective:
