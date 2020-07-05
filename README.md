@@ -43,13 +43,6 @@ The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food
 - IDF(Inverse Document Frequency)
 > To learn about the featurization techniques discussed above, check out my repository named [Natural Language Processing](https://github.com/deveshSingh06/Natural-Language-Processing).
 
-## Technique used for dimensionality reduction and visualization: T-SNE
-- t-SNE stands for T-distributed Stochastic Neighbour Embedding.
-- It is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
-- t-SNE is neighbuorhood preserving embedding.
-- In t-SNE, the distances between a given point, in d-dimensions, and the points in its neighbourhood are preserved.
-- When a given point is embedded to a point in low-dimensions(say 2-d), the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions(d >>> 2).<br>
-> To learn more about t-SNE, check out my repository named [t-SNE on MNIST Dataset](https://github.com/deveshSingh06/t-SNE-on-MNIST-Dataset).
 
 ## Machine Learning Models Built:
 - Random Forest Classifier
