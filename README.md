@@ -1,4 +1,4 @@
-# Amazon Fine Food Reviews Analysis
+# Amazon Fine Food Reviews Project
 
 The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon.<br>
 Number of reviews: **568,454**<br>
