@@ -24,11 +24,11 @@ The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food
 <img src="https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2016/04/AmazonReview-300x189.png" width="600">
 
 
-#### What are we trying to achieve?
+## What are we trying to achieve?
 - Given a review, determine whether the review is positive (rating of 4 or 5) or negative (rating of 1 or 2).
 
 
-#### How to determine if a review is positive or negative?
+## How to determine if a review is positive or negative?
  
  - We could use score/rating of reviews and build machine learning models that can classify the reviews into being positive or negative.
  - A rating of 4 or 5 can be cosnidered as a positive review.
@@ -51,3 +51,6 @@ The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food
 - When a given point is embedded to a point in low-dimensions(say 2-d), the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions(d >>> 2).<br>
 > To learn more about t-SNE, check out my repository named [t-SNE on MNIST Dataset](https://github.com/deveshSingh06/t-SNE-on-MNIST-Dataset).
 
+## Machine Learning Models Built:
+- Random Forest Classifier
+- GBDT Using XGBoost
