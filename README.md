@@ -24,25 +24,23 @@ The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food
 <img src="https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2016/04/AmazonReview-300x189.png" width="600">
 
 
-### Objective:
-Given a review, determine whether the review is positive (Rating of 4 or 5) or negative (rating of 1 or 2).
+#### What are we trying to achieve?
+- Given a review, determine whether the review is positive (rating of 4 or 5) or negative (rating of 1 or 2).
 
 
-**Ques.** How to determine if a review is positive or negative?
+#### How to determine if a review is positive or negative?
+ 
+ - We could use score/rating of reviews and build machine learning models that can classify the reviews into being positive or negative.
+ - A rating of 4 or 5 can be cosnidered as a positive review.
+ - A rating of 1 or 2 can be considered as negative one.
+ - A review of rating 3 is considered neutral and such reviews are ignored from our analysis.
+ - This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
 
-**Ans.** 
-1. If we simply use the score/rating column, the problem becomes very trivial and a simple if-else condition is enough to find out the polarity of a given review.<br>
-2. To turn this problem into a machine learning problem, we remove the score column and use the reviews column and convert reviews to d-dimensional vectors.<br>
-3. We apply the concepts of linear algebra along with some machine learning algorithms on these vectors and find out the polarity of each review.<br>
-4. A rating of 4 or 5 could be considered a positive. A rating of 1 or 2 could be considered negative. A review with rating 3 is considered neutral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
 
 ## Featurization techniques used to convert reviews to vectors:
 - Bag of Words(BoW)
 - TF(Term Frequency)
 - IDF(Inverse Document Frequency)
-- Word to Vector(Word2Vec)
-- Average Word to Vector(Avg Word2Vec)
-- TF-IDF Weighted Word2Vec<br>
 > To learn about the featurization techniques discussed above, check out my repository named [Natural Language Processing](https://github.com/deveshSingh06/Natural-Language-Processing).
 
 ## Technique used for dimensionality reduction: T-SNE
