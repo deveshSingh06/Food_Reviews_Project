@@ -43,7 +43,7 @@ The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food
 - IDF(Inverse Document Frequency)
 > To learn about the featurization techniques discussed above, check out my repository named [Natural Language Processing](https://github.com/deveshSingh06/Natural-Language-Processing).
 
-## Technique used for dimensionality reduction: T-SNE
+## Technique used for dimensionality reduction and visualization: T-SNE
 - t-SNE stands for T-distributed Stochastic Neighbour Embedding.
 - It is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
 - t-SNE is neighbuorhood preserving embedding.
@@ -54,3 +54,14 @@ The data source is available [here](https://www.kaggle.com/snap/amazon-fine-food
 ## Machine Learning Models Built:
 - Random Forest Classifier
 - GBDT Using XGBoost
+
+## Model Evaluation Metrics Used:
+- AUC-ROC Score
+- Confusion Matrix for AUC value of a set of hyperparameters
+- Precision, Recall, F1-Score
+
+### Additional info:
+- Performed Hyperparameter Tuning to find out the best hyperparameters for each model
+- Plotted ROC curve for each model on test data
+- Provided Feature Importance
+- Used Word Clouds to display important features
